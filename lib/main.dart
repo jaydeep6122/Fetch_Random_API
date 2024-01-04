@@ -1,4 +1,5 @@
 import 'package:api/MyHomePage.dart';
+import 'package:api/random.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,9 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: MyHomePage(title: 'Flutter Demo API Page'),
-      home: MyHomePage(
-        title: 'Dat from GitHubAPI',
-      ),
+      home: randomdata(),
     );
   }
 }

@@ -1,4 +1,4 @@
-import 'dart:convert';
+// ignore_for_file: unnecessary_null_comparison
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -36,13 +36,13 @@ class _nodedataState extends State<nodedata> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("node data"),
+        title: const Text("node data"),
         centerTitle: true,
       ),
       body: Container(
         child: Center(
           child: isLoadingg
-              ? CircularProgressIndicator()
+              ? const CircularProgressIndicator()
               : ListView.builder(
                   itemCount: dataa.length == null ? 0 : dataa.length,
                   itemBuilder: (context, index) {
@@ -56,8 +56,8 @@ class _nodedataState extends State<nodedata> {
                           children: [
                             Row(
                               children: [
-                                Icon(Icons.phone),
-                                SizedBox(
+                                const Icon(Icons.phone),
+                                const SizedBox(
                                   width: 20,
                                 ),
                                 Text("${dataa[index]["phone"]}"),
