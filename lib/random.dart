@@ -36,7 +36,7 @@ class _randomdataState extends State<randomdata> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Random data"),
+        title: Text("Fetch Data From API"),
         centerTitle: true,
       ),
       body: Container(
@@ -48,8 +48,7 @@ class _randomdataState extends State<randomdata> {
                   itemBuilder: (context, index) {
                     return Card(
                       child: ListTile(
-                        leading:
-                            Image.network(data[index]["picture"]["thumbnail"]),
+                        leading: Image.network(data[index]["picture"]["large"]),
                         title: Text("${data[index]["name"]["first"]} " +
                             "${data[index]["name"]["last"]}"),
                         subtitle: Column(
