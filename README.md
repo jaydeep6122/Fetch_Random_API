@@ -1,16 +1,15 @@
-# api
+# Flutter API Random Data 
 
-A new Flutter project.
+A Flutter project that demonstrates how to fetch and display random data from a public API. This app serves as a simple example of integrating API calls into a Flutter application and rendering the fetched data in a user-friendly manner.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Random Data Fetching**: Utilizes a public API to fetch random data.
+- **Display**: Renders the fetched data in a clear and organized manner.
+- **Error Handling**: Implements error handling for API calls to ensure a smooth user experience.
+- **Responsive Design**: Adapts to different screen sizes and orientations.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Home Screen](screenshots/home_screen.png)
+![Data Display](screenshots/data_display.png)
