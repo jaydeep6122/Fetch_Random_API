@@ -11,5 +11,8 @@ A Flutter project that demonstrates how to fetch and display random data from a 
 
 ## Screenshots
 
-![Home Screen](screenshots/home_screen.png)
-![Data Display](screenshots/data_display.png)
+![First_Fetch](https://github.com/jaydeep6122/Fetch_Random_API/blob/main/Screenshots/Screenshot_20240109_233151.jpg)
+
+![Second_Fetch](https://github.com/jaydeep6122/Fetch_Random_API/blob/main/Screenshots/Screenshot_20240109_233219.jpg)
+
+![Third_Fetch](https://github.com/jaydeep6122/Fetch_Random_API/blob/main/Screenshots/Screenshot_20240109_233232.jpg)
